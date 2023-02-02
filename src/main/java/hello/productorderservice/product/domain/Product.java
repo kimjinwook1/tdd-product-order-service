@@ -1,4 +1,4 @@
-package hello.productorderservice.product;
+package hello.productorderservice.product.domain;
 
 import lombok.AccessLevel;
 import lombok.Getter;

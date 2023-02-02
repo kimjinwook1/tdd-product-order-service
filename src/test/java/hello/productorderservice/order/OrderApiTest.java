@@ -1,7 +1,8 @@
 package hello.productorderservice.order;
 
 import hello.productorderservice.ApiTest;
-import hello.productorderservice.product.ProductService;
+import hello.productorderservice.order.application.service.OrderService;
+import hello.productorderservice.product.application.service.ProductService;
 import hello.productorderservice.product.ProductSteps;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

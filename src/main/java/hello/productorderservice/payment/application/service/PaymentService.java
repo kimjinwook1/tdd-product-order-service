@@ -1,6 +1,8 @@
-package hello.productorderservice.payment;
+package hello.productorderservice.payment.application.service;
 
-import hello.productorderservice.order.Order;
+import hello.productorderservice.order.domain.Order;
+import hello.productorderservice.payment.application.port.PaymentPort;
+import hello.productorderservice.payment.domain.Payment;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;
@@ -11,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/payments")
-class PaymentService {
+public class PaymentService {
 
     private final PaymentPort paymentPort;
 

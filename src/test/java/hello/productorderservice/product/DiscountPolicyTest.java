@@ -1,5 +1,6 @@
 package hello.productorderservice.product;
 
+import hello.productorderservice.product.domain.DiscountPolicy;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;

@@ -1,5 +1,7 @@
-package hello.productorderservice.product;
+package hello.productorderservice.product.application.service;
 
+import hello.productorderservice.product.application.port.ProductPort;
+import hello.productorderservice.product.domain.Product;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;
@@ -7,8 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/products")
-public
-class ProductService {
+public class ProductService {
     private final ProductPort productPort;
 
     public ProductService(final ProductPort productPort) {

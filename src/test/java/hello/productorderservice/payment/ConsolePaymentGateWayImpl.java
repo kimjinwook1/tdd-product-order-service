@@ -1,5 +1,8 @@
 package hello.productorderservice.payment;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class ConsolePaymentGateWayImpl implements PaymentGateWay {
 
     @Override
